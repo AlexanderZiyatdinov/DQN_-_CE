@@ -58,10 +58,10 @@
     
  2. Берем batch из памяти   Определяем целевые значения (см. функцию ACT и след. участок кода)   
  ``` python
-        def act(self, state):
-        return (random.randrange(self.action_size)
-                if random.uniform(0, 1) < self.epsilon
-                else np.argmax(self.model.predict(state)[0]))
+ def act(self, state):
+     return (random.randrange(self.action_size)
+     if random.uniform(0, 1) < self.epsilon
+     else np.argmax(self.model.predict(state)[0]))
  ```
  ``` python
   def play_with_sample(self):
