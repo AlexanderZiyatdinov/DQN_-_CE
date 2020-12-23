@@ -122,6 +122,6 @@
 Можно сказать, что изначально поставленная задача была решена.
 
 ## ПРИЛОЖЕНИЯ
-![Приложение 1](DQN_MountainCar-v0.py)
+[Приложение 1](DQN_MountainCar-v0.py)
 
-![Приложение 2](Cross-Entropy_MountainCar-v0.py)
+[Приложение 2](Cross-Entropy_MountainCar-v0.py)
